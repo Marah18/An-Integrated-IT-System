@@ -1,0 +1,95 @@
+
+section{
+    padding: 2rem 9%;
+}
+.home{
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    position: relative;
+    z-index: 0;
+    background-image: none !important;
+
+}
+.home .content-{
+    text-align: center;
+}
+.home .content h3{
+    font-size: 4.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0 .3rem .5rem rgba(0, 0, 0, 0.1);
+}
+.home .content p{
+    font-size: 2.5rem;
+    color: #fff;
+    padding: .5rem 0;
+}
+.home .img-container img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.home .controls{
+    padding: 1rem;
+    border-radius: 5rem;
+    background: rgba(0, 0, 0, 0.7);
+    top: 10rem;
+}
+
+.home .controls .imge-btn{
+    height: 2rem;
+    width: 2rem;
+    display: inline-block;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    margin: 0 .5rem;
+}
+.home .controls .imge-btn.blue{
+    background-color: rgba(75, 167, 45, 0.446);
+}
+.heading{
+    text-align: center;
+    padding: 2.5rem 0;
+}
+.heading span{
+    font-size: 3.5rem;
+    background: var(--blue);
+    color: #fff;
+    border-radius: .5rem;
+    padding: .2rem 1rem;
+}
+
+.black-text {
+    text-shadow: 4px 4px 5px  rgb(4, 19, 41)  !important;;
+}
+
+.content {
+    max-width: 1100px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        max-width: 100%; 
+        padding: 0 10px; 
+    }
+
+    .controls {
+        text-align: center; 
+    }
+
+    .controls .imge-btn {
+        display: inline-block;
+        margin: 0 5px; 
+    }
+}

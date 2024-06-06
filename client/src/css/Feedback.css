@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url("/src/img/ab.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .container {
+    max-width: 600px;
+    
+    margin: 100px auto;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+
+   
+  }
+  
+  h2 {
+    text-align: center;
+    
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button[type="submit"] {
+    background-color: rgba(4, 19, 41, 0.779);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .rating {
+    margin-top: 20px;
+    display: inline-block;
+  }
+  
+  .rating input {
+    display: none;
+  }
+  
+  .rating label {
+    cursor: pointer;
+    display: inline-block; /* Change to inline-block */
+    width: 30px;
+    height: 30px;
+    margin: 0 2px;
+    font-size: 24px;
+  }
+  
+  
+  .rating label:before {
+    content: '\2605'; 
+    display: block;
+  }
+  
+  .rating input:checked ~ label:before {
+    color: #FFD700; 
+  }
+  
+  .rating label:hover ~ label:before {
+    color: #FFD700;
+  }
+  

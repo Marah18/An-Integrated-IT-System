@@ -1,0 +1,37 @@
+.main {
+    margin-top: 80px;
+    text-align: center;
+    padding-bottom: 200px;
+}
+.colm {
+    display: inline-block;
+    margin-top: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 20px ;
+    padding-bottom: 100px;
+    border: 1px solid black;
+    margin-left: 40px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+   
+    
+}
+
+.colm img {
+   
+    width: 30px;
+    height: 30px;
+    
+}
+
+.info {
+    display: flex; 
+    align-items: center; 
+}
+
+.info img {
+    margin-right: 10px; 
+}
+
+

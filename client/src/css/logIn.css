@@ -1,0 +1,119 @@
+
+.navbar{
+    height: 68px;
+}
+.navbar-icon {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding-right: 10px;
+}
+
+.navbar-icon-img {
+    width: 40px; 
+    height: auto;
+    border-radius: 50%; 
+    padding: 5px;
+    background-color: rgba(4, 19, 41, 0.779);
+
+}
+
+.navbar-icon-btn  {  
+    margin-top: 10px;  
+    max-width: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 51px;
+    background-color: rgba(4, 19, 41, 0.779);
+    margin-right: 0;
+}
+
+
+.navbar-icon-img:hover {
+    transform: scale(1.1);
+    opacity: 0.8; 
+}
+
+
+.container-logIn {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 60vh; 
+}
+
+.cont-img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 5px;
+    
+}
+
+.login-form {
+    width: 50%; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.login-form h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form .box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #b9d69b;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login-form .btn {
+    width: 25%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #17741a;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 15px;
+    
+}
+
+
+
+.login-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(211, 208, 208);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+.login-form .btn:hover {
+    text-decoration: underline;
+
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url("/src/img/ab.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }

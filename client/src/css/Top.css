@@ -1,0 +1,83 @@
+
+.top-container {
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+
+.top-container h2 {
+    font-size: 2em;
+    color: #343a40;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+}
+
+/* Table Header */
+th {
+    background-color: rgba(4, 19, 41, 0.779);
+    color: white;
+    padding: 12px;
+    text-align: center;
+    border-bottom: 2px solid #dee2e6;
+}
+
+/* Table Cell Styling */
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.medal {
+    width: 30px;
+    height: 30px;
+}
+
+tr:nth-of-type(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e9ecef;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: rgba(4, 19, 41, 0.779);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .top-container {
+        padding: 20px;
+    }
+
+    table, th, td {
+        font-size: 0.9em;
+    }
+}

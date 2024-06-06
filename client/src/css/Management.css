@@ -1,0 +1,48 @@
+/* Management.css */
+.management-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.form-contain {
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    display: flex; 
+    flex-direction: column; /* elements vertically */
+    align-items: center; /* items horizontally */
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    
+
+}
+
+.form-contain h3 {
+    margin-top: 0;
+}
+
+.button-container {
+    display: flex; 
+    justify-content: center; /*  items horizontally */
+    margin-top: 20px;
+}
+
+.button-container button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: rgba(4, 19, 41, 0.779);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-container button:hover {
+   opacity: 0.7;
+}
